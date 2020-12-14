@@ -55,7 +55,7 @@ header nav ul li a {
 /* apply styles to hero */
 
 .hero {
-    background-image: url("/assets/images/hero-bg.jpg");
+    background-image: url("/assets/images/hero.jpg");
     background-size: cover;
     position: relative;
     margin-bottom: 40px;
