@@ -1,7 +1,7 @@
 # Portfolio
 
 # Purpose
-Create portfolio for applying to jobs
+Create portfolio to highlight my work and display accomplishments, skills and potentials.
 
 ## Built with
 * HTML
