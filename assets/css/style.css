@@ -74,18 +74,21 @@ header nav ul li a {
 
 main {
     padding-top: 25px;
+    padding-bottom: 25px;
     background: rgb(237, 238, 247);
-    height: 100%;
+    height: auto;
 }
 
 /* apply styles to about-me */
 
 section {
     display: flex;
+    justify-content: center;
     margin-bottom: 35px;
     align-items: center;
     padding-right: 30px;
 }
+
 
 section div {
     flex-grow: 1;
@@ -104,19 +107,7 @@ section div {
 }
 
 
-.contact-info ul {
-    max-width: 900px;
-    list-style: none;
-    display: flex;
-}
 
-.contact-info ul li {
-    margin: 0 20px;
-}
-
-.contact-info ul li a {
-    text-decoration: none;
-}
 
 .projects {
     display: grid;
@@ -125,10 +116,20 @@ section div {
     height: 450px;
 }
 
+.projects a {
+    position: relative;
+}
+
 .project-img {
     background-size: cover;
     background-position: center;
-    position: relative;
+    height: 100%;
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+
+.projects a:hover .project-img {
+    opacity: 0.85;
 }
 
 .run-buddy {
@@ -160,6 +161,41 @@ section div {
     width: auto;
     padding: 7.5px 2.5px 7.5px 20px;
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
 }
 
+.contact-info ul {
+    max-width: 850px;
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+}
+
+.contact-info ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding: 2px;
+}
+
+.contact-info ul li {
+}
+
+@media screen and (max-width: 860px) {
+    .projects {
+        grid-template: auto / 1fr 1fr;
+    }
+}
+
+/* @media screen and (max-width: 750px) {
+    #contact-me {
+        margin: 
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .calculator {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+    }
+} */
