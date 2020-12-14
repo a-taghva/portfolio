@@ -3,10 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
-    --primary-color: rgb(48, 51, 61);
+    --primary-color: rgb(48, 51, 70);
     --secondary-color: rgb(159, 198, 204);
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -44,4 +50,58 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: var(--secondary-color);
+}
+
+/* apply styles to hero */
+
+.hero {
+    background-image: url("/assets/images/hero-bg.jpg");
+    background-size: cover;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+
+main {
+    padding-top: 25px;
+    background: rgb(237, 238, 247);
+    height: 100vh;
+}
+
+/* apply styles to about-me */
+
+section {
+    display: flex;
+    height: auto;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+section div {
+    flex-grow: 1;
+}
+
+.section-title {
+    flex-basis: 175px;
+    flex-shrink: 0;
+    text-align: right;
+    border-right: 3px solid var(--primary-color);
+    padding-right: 10px;
+    margin-right: 5px;
+    align-self: stretch;
+}
+
+
+.contact-info ul {
+    max-width: 900px;
+    list-style: none;
+    display: flex;
+}
+
+.contact-info ul li {
+    margin: 0 20px;
+}
+
+.contact-info ul li a {
+    text-decoration: none;
 }
