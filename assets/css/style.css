@@ -57,37 +57,49 @@ header nav ul li a {
 .hero {
     background-image: url("/assets/images/hero.jpg");
     background-size: cover;
+    background-position: center;
     position: relative;
-    margin-bottom: 40px;
+    height: 500px;
+    margin-bottom: 0;
 }
 
+.subtitle {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
 
 main {
     padding-top: 25px;
     background: rgb(237, 238, 247);
-    height: 100vh;
+    height: 100%;
 }
 
 /* apply styles to about-me */
 
 section {
     display: flex;
-    height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     align-items: center;
+    padding-right: 30px;
 }
 
 section div {
     flex-grow: 1;
+    max-width: 980px;
 }
 
 .section-title {
+    font-size: 32px;
     flex-basis: 175px;
     flex-shrink: 0;
     text-align: right;
     border-right: 3px solid var(--primary-color);
-    padding-right: 10px;
-    margin-right: 5px;
+    padding-right: 7.5px;
+    margin-right: 20px;
     align-self: stretch;
 }
 
@@ -105,3 +117,49 @@ section div {
 .contact-info ul li a {
     text-decoration: none;
 }
+
+.projects {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-gap: 10px;
+    height: 450px;
+}
+
+.project-img {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.run-buddy {
+    background-image: url("/assets/images/run-buddy.png");
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.led-wall {
+    background-image: url("/assets/images/led-wall.jpg");
+}
+
+.calculator {
+    background-image: url("/assets/images/calculator.jpg");
+}
+
+.surf-report {
+    background-image: url("/assets/images/surf-report.jpg");
+    background-position: bottom;
+}
+
+.pastel-puzzels {
+    background-image: url("/assets/images/pastel-puzzels.jpg");
+}
+
+.project-caption {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    width: auto;
+    padding: 7.5px 2.5px 7.5px 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
