@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="./assets/css//style.css" />
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>Portfolio</h1>
+        <!-- Navigation -->
         <nav>
-            <ul>
+            <ul class="anchor-style">
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact-me">Contact Me</a></li>
@@ -19,14 +21,16 @@
         </nav>
     </header>
 
+    <!-- Hero section -->
     <section class="hero">
         <h2 class="subtitle">Ali Taghva</h2>
     </section>
 
+    <!-- Main section -->
     <main>
-
+        <!-- About Me -->
         <section id="about-me">
-            <h2 class="section-title">About<br />Me</h2>
+            <h2 class="section-title">About Me</h2>
             <div>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -45,57 +49,75 @@
             </div>
         </section>
 
+        <!-- Work -->
         <section id="work">
             <h2 class="section-title">Work</h2>
             <div class="projects">
-                <a href="#" class="run-buddy">
-                    <div  class="project-img run-buddy"></div>
-                    <div class="project-caption">
-                        <h3>Run Buddy</h3>
-                        <h4>HTML/CSS</h4>
-                    </div>
-                </a>
-                <a href="#">
-                    <div  class="project-img led-wall"></div>
-                    <div class="project-caption">
-                        <h3>LED Wall</h3>
-                        <h4>Node/IoT</h4>
-                    </div>
-                </a>
-                <a href="#">
-                    <div  class="project-img pastel-puzzels"></div>
-                    <div class="project-caption">
-                    	<h3>Pastel Puzzels</h3>
-                    	<h4>MERN Stack</h4>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="project-img surf-report"></div>
-                    <div class="project-caption">
-                        <h3>Surf Report</h3>
-                        <h4>MERN Stack</h4>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="project-img calculator"></div>
-                    <div class="project-caption">
-                        <h3>Calculator</h3>
-                        <h4>React/JavaScript/CSS</h4>
-                    </div>
-                </a>
+
+                <div class="grid-item run">
+                    <a href="https://a-taghva.github.io/run-buddy/" target="_blank" class="run-buddy">
+                        <div  class="project-img run-buddy"></div>
+                        <div class="project-caption">
+                            <h3>Run Buddy</h3>
+                            <h4>HTML/CSS</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-item led">
+                    <a href="#">
+                        <div  class="project-img led-wall"></div>
+                        <div class="project-caption">
+                            <h3>LED Wall</h3>
+                            <h4>Node/IoT</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-item pastel">
+                    </a>
+                    <a href="#">
+                        <div  class="project-img pastel-puzzels"></div>
+                        <div class="project-caption">
+                        	<h3>Pastel Puzzels</h3>
+                        	<h4>MERN Stack</h4>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="grid-item surf">
+                    <a href="#">
+                        <div class="project-img surf-report"></div>
+                        <div class="project-caption">
+                            <h3>Surf Report</h3>
+                            <h4>MERN Stack</h4>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid-item calc">
+                    <a href="#">
+                        <div class="project-img calculator"></div>
+                        <div class="project-caption">
+                            <h3>Calculator</h3>
+                            <h4>React/JavaScript/CSS</h4>
+                        </div>
+                    </a>
+                </div>
                 
             </div>
         </section>
 
+        <!-- Contact Me -->
         <section id="contact-me">
-            <h2 class="section-title">Contact<br />Me</h2>
+            <h2 class="section-title">Contact Me</h2>
             <div class="contact-info">
-                <ul>
+                <ul class="anchor-style">
                     <li><a href="tel:+1-647-686-4519">647-686-4519</a></li>
                     <li><a href="mailto:taghvali99@gmail.com">Email</a></li>
-                    <li><a href="https://github.com/a-taghva">Github</a></li>
-                    <li><a href="https://twitter.com/alitaghva_">Twitter</a></li>
-                    <li><a href="https://linkedin.com/in/ali-taghva">Linkedin</a></li>
+                    <li><a href="https://github.com/a-taghva" target="_blank">Github</a></li>
+                    <li><a href="https://twitter.com/alitaghva_" target="_blank">Twitter</a></li>
+                    <li><a href="https://linkedin.com/in/ali-taghva" target="_blank">Linkedin</a></li>
                 </ul>
             </div>
         </section>
