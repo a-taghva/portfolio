@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: rgb(48, 51, 61);
+    --secondary-color: rgb(159, 198, 204);
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* apply styles to header */
+header {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: var(--primary-color);
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 5px 5px 5px 40px;
+    font-weight: 700;
+}
+
+header nav {
+    padding-right: 35px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 10px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
