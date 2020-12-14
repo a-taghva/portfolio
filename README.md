@@ -10,7 +10,7 @@ Create portfolio for applying to jobs
 ## Website
 * [Portfolio](https://a-taghva.github.io/portfolio/)
 
-<img src="./assets/images/portfolio.png" width="100px";
+[<img src="./assets/images/portfolio.png" width="400px">](https://a-taghva.github.io/portfolio/)
 
 
 ## Contribution
