@@ -67,7 +67,7 @@ header nav ul li {
 /* apply styles to hero */
 
 .hero {
-    background-image: url("/assets/images/hero.jpg");
+    background-image: url("../images/hero.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -148,7 +148,7 @@ section div {
 }
 
 .run-buddy {
-    background-image: url("/assets/images/run-buddy.png");
+    background-image: url("../images/run-buddy.png");
 }
 
 .run {
@@ -157,20 +157,20 @@ section div {
 }
 
 .led-wall {
-    background-image: url("/assets/images/led-wall.jpg");
+    background-image: url("../images/led-wall.jpg");
 }
 
 .calculator {
-    background-image: url("/assets/images/calculator.jpg");
+    background-image: url("../images/calculator.jpg");
 }
 
 .surf-report {
-    background-image: url("/assets/images/surf-report.jpg");
+    background-image: url("../images/surf-report.jpg");
     background-position: bottom;
 }
 
 .pastel-puzzels {
-    background-image: url("/assets/images/pastel-puzzels.jpg");
+    background-image: url("../images/pastel-puzzels.jpg");
 }
 
 .project-caption {
