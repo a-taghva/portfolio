@@ -143,7 +143,7 @@ section div {
     transition: opacity 1s;
 }
 
-.poke-parte {
+.taskmaster-pro {
     background-position: top;
 }
 
@@ -155,7 +155,7 @@ section div {
     background-image: url("../images/run-buddy.png");
 }
 
-.poke {
+.task-m-p {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
 }
@@ -173,8 +173,8 @@ section div {
     background-position: bottom;
 }
 
-.poke-parte {
-    background-image: url("../images/poke-parte.png");
+.taskmaster-pro {
+    background-image: url("../images/taskmaster-pro.png");
 }
 
 .project-caption {
