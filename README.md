@@ -1,6 +1,6 @@
 # Portfolio
 
-# Purpose
+## Purpose
 Create portfolio to highlight my work and display accomplishments, skills and potentials.
 
 ## Built with
