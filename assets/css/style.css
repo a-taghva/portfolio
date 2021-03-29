@@ -169,12 +169,12 @@ section div {
 }
 
 .surf-report {
-    background-image: url("../images/surf-report.jpg");
-    background-position: bottom;
+    background-image: url("../images/taskmaster-pro.png");
+    background-position: top;
 }
 
 .taskmaster-pro {
-    background-image: url("../images/taskmaster-pro.png");
+    background-image: url("../images/simply-unused.png");
 }
 
 .project-caption {
